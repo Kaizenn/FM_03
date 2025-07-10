@@ -2,7 +2,7 @@
   "name": "my-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kaizenn.github.io/FM_03/",
+  "homepage": "https://kaizenn.github.io/FM_03",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
