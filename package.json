@@ -2,16 +2,14 @@
   "name": "my-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kaizenn.github.io/FM_03",
+  "homepage": "https://kaizenn.github.io/FM_03/",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
-    "start": "react-scripts start",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
